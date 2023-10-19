@@ -98,8 +98,8 @@ function mainSlider() {
 		dots:false ,
 		fade: true,
 		arrows: true,
-		prevArrow: '<button type="button" class="slick-prev"><i class="far fa-angle-left"></i></button>',
-		nextArrow: '<button type="button" class="slick-next"><i class="far fa-angle-right"></i></button>',
+		prevArrow: '<button type="button" class="slick-prev"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></i></button>',
+		nextArrow: '<button type="button" class="slick-next"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></button>',
 		responsive: [
 			{ breakpoint: 1200, settings: { dots: false, arrows: false } }
 		]
@@ -164,8 +164,8 @@ $('.team-active').slick({
 	dots: true,
 	infinite: true,
 	arrows: false,
-	prevArrow: '<button type="button" class="slick-prev"><i class="far fa-chevron-left"></i></button>',
-	nextArrow: '<button type="button" class="slick-next"><i class="far fa-chevron-right"></i></button>',
+	prevArrow: '<button type="button" class="slick-prev"><i class="fa-solid fa-arrow-left"></i></i></button>',
+	nextArrow: '<button type="button" class="slick-next"><i class="fa-solid fa-arrow-right"></i></i></button>',
 	speed: 1000,
 	slidesToShow:4,
 	slidesToScroll: 1,
@@ -200,8 +200,8 @@ $('.class-active').slick({
 	dots: true,
 	infinite: true,
     arrows: true,	
-	prevArrow: '<button type="button" class="slick-prev"><i class="fal fa-angle-left"></i></button>',
-	nextArrow: '<button type="button" class="slick-next"><i class="fal fa-angle-right"></i></button>',
+	prevArrow: '<button type="button" class="slick-prev"><i class="fa-solid fa-arrow-left"></i></button>',
+	nextArrow: '<button type="button" class="slick-next"><i class="fa-solid fa-arrow-right"></i></button>',
 	speed: 1000,
 	slidesToShow: 3,
 	slidesToScroll: 1,
@@ -236,8 +236,8 @@ $('.portfolio-active').slick({
 	dots: false,
 	infinite: true,
     arrows: true,
-	prevArrow: '<button type="button" class="slick-prev"><i class="fal fa-angle-left"></i></button>',
-	nextArrow: '<button type="button" class="slick-next"><i class="fal fa-angle-right"></i></button>',
+	prevArrow: '<button type="button" class="slick-prev"><i class="fa-solid fa-arrow-left"></i></button>',
+	nextArrow: '<button type="button" class="slick-next"><i class="fa-solid fa-arrow-right"></i></button>',
 	speed: 1000,
 	slidesToShow: 5,
 	slidesToScroll: 1,
@@ -360,7 +360,7 @@ $('.testimonial-active2').slick({
   autoplaySpeed:1500,
 	infinite: true,
 	arrows: false,
-     prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
+     prevArrow: '<button type="button" class="slick-prev"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></button>',
 	nextArrow: '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
 	speed: 1000,
 	slidesToShow: 1,
@@ -409,7 +409,7 @@ $('.slider-nav').slick({
   centerMode: true,
   focusOnSelect: true, 
   variableWidth:true,
-    prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
+    prevArrow: '<button type="button" class="slick-prev"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></button>',
 	nextArrow: '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
 });
 // home-blog-active
@@ -420,8 +420,8 @@ $('.home-blog-active').slick({
 	speed: 1000,
 	slidesToShow: 4,
 	slidesToScroll: 1,
-    prevArrow: '<button type="button" class="slick-prev"><i class="far fa-chevron-left"></i></button>',
-	nextArrow: '<button type="button" class="slick-next"><i class="far fa-chevron-right"></i></button>',
+    prevArrow: '<button type="button" class="slick-prev"><i class="fa-solid fa-arrow-left"></i></i></button>',
+	nextArrow: '<button type="button" class="slick-next"><i class="fa-solid fa-arrow-right"></i></i></button>',
 	responsive: [
 		{
 			breakpoint: 1200,
@@ -457,8 +457,8 @@ $('.home-blog-active2').slick({
 	speed: 1000,
 	slidesToShow: 4,
 	slidesToScroll: 1,
-    prevArrow: '<button type="button" class="slick-prev"><i class="far fa-chevron-left"></i></button>',
-	nextArrow: '<button type="button" class="slick-next"><i class="far fa-chevron-right"></i></button>',
+    prevArrow: '<button type="button" class="slick-prev"><i class="fa-solid fa-arrow-left"></i></i></button>',
+	nextArrow: '<button type="button" class="slick-next"><i class="fa-solid fa-arrow-right"></i></i></button>',
 	responsive: [
 		{
 			breakpoint: 1200,
@@ -498,7 +498,7 @@ $('.blog-active').slick({
 	slidesToShow: 1,
 	slidesToScroll: 1,
 	fade: true,
-	prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
+	prevArrow: '<button type="button" class="slick-prev"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></button>',
 	nextArrow: '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
 });
 
